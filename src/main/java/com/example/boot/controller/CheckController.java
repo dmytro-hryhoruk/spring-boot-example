@@ -1,4 +1,4 @@
-package com.example.boot;
+package com.example.boot.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CheckController {
 
     @RequestMapping("/")
-    public String isWork(){
+    public String isWork() {
         return "Spring is coming...";
     }
 }
